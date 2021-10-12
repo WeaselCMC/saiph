@@ -73,6 +73,17 @@ Local::Local() : _unanswered_chars(1), _synchronous(0) {
 		}
 		return;
 	}
+
+	std::string input = "nh**y";
+	char kek[65535];
+	Debug::info() << "Select random character: " << write(_link[1], input.c_str(), input.size()) << std::endl;
+
+	sleep(1);
+	read(_link[0], &kek[0], 65535);
+	sleep(1);
+	input = " ";
+	Debug::info() << "Select random character: " << write(_link[1], input.c_str(), input.size()) << std::endl;
+
 }
 
 Local::~Local() {
@@ -100,6 +111,7 @@ int Local::doRetrieve(char* buffer, int count) {
 	/* retrieve data */
 	ssize_t data_received = 0;
 	ssize_t amount;
+
 	if (_synchronous > 0) {
 		do {
 			amount = read(_link[0], &buffer[data_received], count - data_received - 2);
@@ -120,12 +132,14 @@ int Local::doRetrieve(char* buffer, int count) {
 		/* usleep some ms here (after the blocked reading) both to
 		 * make sure that we've received all the data and to make the
 		 * game watchable  */
-		usleep(20000);
+		usleep(100000);
+		// Debug::warning() << "ALARM" << std::endl;
 		do {
 			amount = read(_link[0], &buffer[data_received], count - data_received - 2);
 			if (amount > 0)
 				data_received += amount;
-		} while (amount > 1000 && !(amount & (amount + 1))); // power of 2 test
+			Debug::info() << "WRITING TO BUFFER " << amount << endl;
+		} while (amount > 0); // power of 2 test
 		if (data_received > 0) {
 			int th = removeThorns(buffer, data_received);
 			if (th > 0) {

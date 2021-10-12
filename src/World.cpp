@@ -24,6 +24,8 @@ using namespace std;
 
 /* static variables */
 vector<Point> World::_changes;
+char text[ROWS * (COLS + 1) + 1] = {0};
+
 char World::_view[ROWS][COLS + 1] = {
 	{'\0'}
 };
@@ -204,6 +206,10 @@ void World::init(const string& logfile, int connection_type) {
 	cout << "\033[2J";
 
 	/* fetch the first "frame" */
+	memset(text, 32, ROWS * (COLS + 1));
+	for(int j = COLS; j < ROWS * (COLS + 1); j+=COLS+1)
+		text[j] = 10;
+
 	update();
 }
 
@@ -1615,6 +1621,9 @@ void World::update() {
 	Debug::rawCharArray(_data, 0, _data_size);
 	_cout_last_color = -1;
 	_cout_cursor.row(-1);
+
+	std::string tmp = "";
+	
 	for (int pos = 0; pos < _data_size; ++pos) {
 		switch (_data[pos]) {
 		case 0:
@@ -1660,13 +1669,34 @@ void World::update() {
 				Debug::warning() << "Fell out of the dungeon: " << _cursor.row() << ", " << _cursor.col() << endl;
 				break;
 			}
-			_view[_cursor.row()][_cursor.col()] = (unsigned char) _data[pos];
+			text[_cursor.row() * (COLS + 1) + _cursor.col()] =
+				_view[_cursor.row()][_cursor.col()] =
+					(unsigned char) _data[pos];
+
+			tmp += (unsigned char) _data[pos];
 			_color[_cursor.row()][_cursor.col()] = charcolor;
 			addChangedLocation(_cursor);
 			_cursor.moveEast();
 			break;
 		}
 	}
+	// Debug::info() << "RAW VIEW char by char: " << tmp << " " << tmp.length() << std::endl;
+	// std::string stri( (char *)(_view));
+	Debug::warning()
+		<< "RAW TEXT:\n"
+		<< "================================================================================\n"
+		<< text
+		<< "================================================================================\n"
+		<< std::endl;
+
+	std::ofstream& out_stream_warn = Debug::warning();
+
+	out_stream_warn << "RAW VIEW\n";
+	out_stream_warn << "================================================================================\n";
+	for (int i = 0; i < ROWS; ++i) {
+		out_stream_warn << _view[i] << std::endl;
+	}
+	out_stream_warn << "================================================================================\n" << std::endl;
 
 	coutSetColor(NO_COLOR);
 	coutGoto(_cursor.row()+1, _cursor.col()+1);

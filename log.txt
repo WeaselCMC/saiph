@@ -1,0 +1,410 @@
+python pynle.py --seed 20261017811945242 16975349360313305502
+
+>>>>> Taking ';',
+`Pick an object.`
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3234 to stdout:
+Pick an object.                                                                 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking 'h',
+``
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3207 to stdout:
+tame kitten                                                                     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking '.',
+`f        a cat or other feline (tame kitten)`
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3387 to stdout:
+f        a cat or other feline (tame kitten)                                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking '\x1b',
+``
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3117 to stdout:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking ';',
+`Pick an object.`
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3234 to stdout:
+Pick an object.                                                                 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking 'y',
+``
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3225 to stdout:
+floor of a room                                                                 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking 'y',
+``
+{'bls': {'armor_class': 9,
+         'carrying_capacity': 0,
+         'cha': 10,
+         'con': 14,
+         'condition': 0,
+         'depth': 1,
+         'dex': 14,
+         'dungeon_number': 0,
+         'energy': 6,
+         'experience_level': 1,
+         'experience_points': 0,
+         'gold': 0,
+         'hitpoints': 12,
+         'hunger_state': 1,
+         'int': 18,
+         'level_number': 1,
+         'max_energy': 6,
+         'max_hitpoints': 12,
+         'monster_level': 0,
+         'score': 0,
+         'str': 9,
+         'strength_percentage': 9,
+         'time': 1,
+         'wis': 10,
+         'x': 66,
+         'y': 18},
+ 'msc': {'in_getlin': False,
+         'in_yn_function': False,
+         'xwaitingforspace': False}}
+sent 3144 to stdout:
+fox                                                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              -.------          
+                                                              |.d....|          
+                                                              .......|          
+                                                              |..f@..|          
+                                                              --------          
+                                                                                
+Agent the Evoker               St:9 Dx:14 Co:14 In:18 Wi:10 Ch:10 Chaotic S:0   
+Dlvl:1 $:0 HP:12(12) Pw:6(6) AC:9 Xp:1/0                                        
+--------------------------------------------------------------------------------
+
+>>>>> Taking '\x03',
+KeyError('\x03')
